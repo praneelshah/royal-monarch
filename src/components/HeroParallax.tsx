@@ -18,10 +18,10 @@ import aiAutomation from "@/assets/ai-automation.jpg";
 
 // 8 unique images split across 2 rows, no repeats
 const row1 = [
-  { title: "AI Automation", link: "#", thumbnail: aiAutomation },
+  { title: "Precision Smile", link: "#", thumbnail: portfolioDental },
   { title: "Interception", link: "#", thumbnail: portfolioInterception },
   { title: "Dos Mezclas", link: "#", thumbnail: portfolioDrinks },
-  { title: "Precision Smile", link: "#", thumbnail: portfolioDental },
+  { title: "AI Automation", link: "#", thumbnail: aiAutomation },
 ];
 const row2 = [
   { title: "Cursor", link: "#", thumbnail: portfolioCursor },
@@ -77,7 +77,7 @@ export default function HeroParallax() {
   return (
     <div
       ref={ref}
-      className="h-[250vh] py-20 overflow-hidden antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] bg-background"
+      className="h-[180vh] md:h-[200vh] lg:h-[220vh] py-20 overflow-clip antialiased relative flex flex-col self-auto [perspective:1000px] [transform-style:preserve-3d] bg-background"
     >
       <div className="max-w-7xl relative mx-auto py-10 md:py-20 px-4 w-full left-0 top-0">
         <h2 className="text-2xl md:text-7xl font-bold text-foreground font-display">

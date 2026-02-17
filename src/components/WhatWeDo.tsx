@@ -36,7 +36,7 @@ export default function WhatWeDo() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
-            className="text-sm text-muted-foreground max-w-lg font-body"
+            className="text-sm md:text-base lg:text-lg text-muted-foreground max-w-lg font-body"
           >
             <h2 className="text-2xl font-bold font-display text-foreground uppercase tracking-wide">What We Do</h2>
             <div className="w-24 h-[3px] rounded-full bg-gradient-violet mt-2" />

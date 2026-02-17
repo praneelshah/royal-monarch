@@ -7,10 +7,10 @@ import { Link } from "react-router-dom";
 import { useRef, useState } from "react";
 import solutionsHero from "@/assets/solutions-hero.jpg";
 import aiImg from "@/assets/ai-automation.jpg";
-import serviceTalent from "@/assets/service-talent.jpg";
-import serviceAi from "@/assets/service-ai.jpg";
-import serviceCloud from "@/assets/service-cloud.jpg";
-import serviceCost from "@/assets/service-cost.jpg";
+import serviceTalent from "@/assets/solutions-talent.webp";
+import serviceAi from "@/assets/solutions-ai.jpg";
+import serviceCloud from "@/assets/solutions-cloud.jfif";
+import serviceCost from "@/assets/solutions-cost.jfif";
 
 // Spotlight card (21st.dev inspired)
 function SpotlightCard({ children, className = "" }: { children: React.ReactNode; className?: string }) {
