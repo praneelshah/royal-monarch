@@ -19,8 +19,12 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-lg border-b border-border/50">
       <div className="container mx-auto px-4 flex items-center justify-between h-16">
-        <Link to="/" className="flex items-center ml-4">
-          <img src={logoWhite} alt="Royal Monarch" className="h-16 w-auto" />
+        <Link to="/" className="flex items-center ml-4 shrink-0">
+          <img
+            src={logoWhite}
+            alt="Royal Monarch"
+            className="h-8 sm:h-10 md:h-11 w-auto max-h-12 object-contain object-left"
+          />
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
