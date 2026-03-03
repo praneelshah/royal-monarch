@@ -23,7 +23,7 @@ export default function Navbar() {
           <img
             src={logoWhite}
             alt="Royal Monarch"
-            className="h-8 sm:h-10 md:h-11 w-auto max-h-12 object-contain object-left"
+            className="h-10 sm:h-12 md:h-14 w-auto max-h-16 object-contain object-left"
           />
         </Link>
 
